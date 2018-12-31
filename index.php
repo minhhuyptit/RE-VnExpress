@@ -12,12 +12,12 @@
 		<h1 class="page-header">Tổng hợp tin tức thể thao - RSS</h1>
 		<div class="row my-content">
 			<ul class="nav nav-pilis nav-justified">
-				<li class="actived"><a href="#vnexpress" data-toggle="tab">VnExpress</a></li>
-				<li><a href="#dantri" data-toggle="tab">Dân Trí</a></li>
+				<li class="actived"><a href="#vnexpress1" data-toggle="tab">VnExpress Cách 1</a></li>
+				<li><a href="#vnexpress2" data-toggle="tab">VnExpress Cách 2</a></li>
 			</ul>
 			<div class="tab-content" id="myTabContent">
-				<div id="vnexpress" class="tab-pane fade in active"></div>
-				<div id="dantri" class="tab-pane fade"></div>
+				<div id="vnexpress1" class="tab-pane fade in active"></div>
+				<div id="vnexpress2" class="tab-pane fade"></div>
 			</div>
 		</div>
 	</div>
@@ -27,10 +27,10 @@
 	<script type="text/javascript">
 		var loadDT = false;
 		$(document).ready(function(){
-			$('#vnexpress').load('load-data.php', {'type': 'vnexpress'});
-			$('a[href=#dantri]').click(function(){
+			$('#vnexpress1').load('load-data.php', {'type': 'vnexpress1'});
+			$('a[href=#vnexpress2]').click(function(){
 				if(loadDT == false){
-					$('#dantri').load('load-data.php', {'type': 'dantri'});
+					$('#vnexpress2').load('load-data.php', {'type': 'vnexpress2'});
 				}
 				loadDT = true;
 			});
