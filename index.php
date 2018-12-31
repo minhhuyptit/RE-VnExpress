@@ -3,13 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>RSS</title>
+	<title>Regular Expression</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 </head>		
 <body>
 	<div class="container list-quiz">
-		<h1 class="page-header">Tổng hợp tin tức thể thao - RSS</h1>
+		<h1 class="page-header">Tổng hợp tin tức thể thao - Regular Expression</h1>
 		<div class="row my-content">
 			<ul class="nav nav-pilis nav-justified">
 				<li class="actived"><a href="#vnexpress1" data-toggle="tab">VnExpress Cách 1</a></li>
